@@ -1,0 +1,43 @@
+{
+  "name": "skill-sync-express-backend",
+  "version": "1.0.0",
+  "description": "This Express.js backend serves as the core of our comprehensive employment platform, handling API requests, data processing, and communication between the frontend and the database. It provides endpoints for features such as personalized job recommendations, skill gap analysis, adaptive learning pathways, and AI-powered chatbots. Additionally, it integrates with various external services to support functionalities like resume generation, video conferencing, and payment processing, ensuring a seamless and efficient user experience.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r dotenv/config --experimental-json-modules src/index.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SobujRoySunday/skill-sync.git"
+  },
+  "keywords": [
+    "Expressjs",
+    "Smart",
+    "Education",
+    "AI",
+    "powered",
+    "systems"
+  ],
+  "author": "Sorbopriyo Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SobujRoySunday/skill-sync/issues"
+  },
+  "homepage": "https://github.com/SobujRoySunday/skill-sync#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "groq-sdk": "^0.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0"
+  }
+}
